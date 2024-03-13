@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+
+  .info {
+    max-width: 350px;
+  }
+  .title {
+    color: #2e373b;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .date {
+    color: #f6404f;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .image {
+    width: 160px;
+    height: 120px;
+    background-size: cover;
+  }
+}

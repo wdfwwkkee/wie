@@ -1,0 +1,31 @@
+.links {
+  z-index: 10;
+  position: relative;
+  background: #2378fc;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  div a:hover {
+    text-decoration:underline;
+    color: #FFC41E;
+  }
+
+}
+
+.linksContent {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

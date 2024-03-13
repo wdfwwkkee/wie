@@ -1,0 +1,62 @@
+.hero {
+    padding-top: 200px;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 50px;
+}
+
+
+.heroContent {
+    display: flex;
+    gap: 150px;
+    justify-content: space-between;
+}
+
+.heroDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .title {
+        font-size: 60px;
+        font-weight: 700;
+    }
+}
+
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+
+    .cardItem {
+        grid-column: span 6;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 25px;
+        background: black;
+
+        .CardText {
+            font-weight: 600;
+            font-size: 30px;
+        }
+
+        &:nth-child(1) {
+            background: #2378FC;
+        }
+
+        &:nth-child(2) {
+            background: #30BCC9;
+        }
+        &:nth-child(3) {
+            background: #FFC41E;
+        }
+        &:nth-child(4) {
+            background: #F6404F;
+        }
+        
+    }
+
+}
+

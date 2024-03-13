@@ -1,0 +1,62 @@
+.footer {
+  background: #30bcc9;
+  padding: 60px 0px;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  margin-bottom: 70px;
+}
+
+.footerSocial {
+  flex: 1 1 45%;
+}
+
+.titleSocial {
+  font-size: 25px;
+  font-weight: 500;
+
+  margin-bottom: 20px;
+}
+
+.listSocial {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footerLinks {
+  display: grid;
+  row-gap: 25px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.subNewsTitle {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.subNewsDesc {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.subNewsInput input {
+    padding: 20px;
+    background: #FFFFFF;
+    border: none;
+}
+.subNewsInput  {
+    display: flex;
+}
+.subNewsInput button {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    background: #F6404F;
+}

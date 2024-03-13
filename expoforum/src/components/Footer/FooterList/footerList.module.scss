@@ -1,0 +1,26 @@
+.item {
+  grid-column: span 4;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .listItem a {
+      font-size: 17px;
+      font-weight: 400;
+    
+        &:hover {
+            color: #FFC41E;
+            text-decoration: underline;
+        }
+    
+    }
+}
+

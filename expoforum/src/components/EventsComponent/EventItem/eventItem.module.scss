@@ -1,0 +1,26 @@
+.EventItem {
+  max-width: 350px;
+  grid-column: span 4;
+
+  .image {
+    background: #ffffff;
+    margin-bottom: 20px;
+  }
+  .date {
+    color: #2e373b;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .title {
+    color: #f6404f;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .desc {
+    font-size: 17px;
+    font-weight: 400;
+    color: #2e373b;
+  }
+}

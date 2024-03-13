@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 50px 0px;
+}
+
+.headerContent {
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.userSide {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    .language {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
